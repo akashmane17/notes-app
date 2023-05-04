@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Iconscout link for icon -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+
+  <div class="popup-box">
+    <div class="popup">
+      <div class="content">
+        <header>
+          <p id="popup-title">Add a new Note</p>
+          <i id="close-icon" class="uil uil-times"></i>
+        </header>
+        <form action="#">
+          <div class="row title">
+            <label for="">Title</label>
+            <input id="title" type="text">
+          </div>
+          <div class="row description">
+            <label for="">Description</label>
+            <textarea id="description"></textarea>
+          </div>
+          <button id="add-btn">Add note</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <li class="add-box">
+      <div class="icon"><i class="uil uil-plus"></i></div>
+      <p>Add new note</p>
+    </li>
+  </div>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+</body>
+
+</html>
